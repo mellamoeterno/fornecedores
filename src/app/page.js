@@ -15,7 +15,7 @@ export default function Home() {
           <img src="/images/img3.png" className="w-full h-full object-cover" />
           <div className="w-full h-20 flex items-center justify-center bg-[#130202]">
           <button
-            className="bg-gradient-to-r from-[#410808] via-[#690b0b] to-[#420404] text-gray-950 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
+            className="bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] text-gray-950 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
             onClick={() => {
               window.location.href = 'https://pay.kiwify.com.br/apXqq2m';
             }}
@@ -33,7 +33,7 @@ export default function Home() {
 
             <div className="w-full h-20 flex items-center justify-center bg-[#410808]">
           <button
-            className="bg-gradient-to-r from-[#410808] via-[#690b0b] to-[#420404] text-gray-950 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
+            className="bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] text-gray-950 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
             onClick={() => {
               window.location.href = 'https://pay.kiwify.com.br/apXqq2m';
             }}
