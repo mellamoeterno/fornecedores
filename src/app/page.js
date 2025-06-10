@@ -28,7 +28,18 @@ export default function Home() {
       {/* Images */}      
       <div>
           <img src="/images/img1.png" className="w-full h-full object-cover" />
-          
+           <div className="w-full max-w-4xl mx-auto p-4">
+           <div className="relative w-full pb-[56.25%] overflow-hidden rounded-2xl shadow-lg">
+              <video
+                className="absolute top-0 left-0 w-full h-full object-cover"
+                controls
+                preload="metadata"
+              >
+                <source src="../videos/video1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+           </div>
           <img src="/images/img2.png" className="w-full h-full object-cover" />          
           <img src="/images/img3.png" className="w-full h-full object-cover" />
           <div className="w-full h-20 flex items-center justify-center bg-[#130202]">
