@@ -52,13 +52,9 @@ export default function Home() {
             Quero Faturar Mais  
           </button>
           </div> 
-          <img src="/images/img4.png" className="w-full h-full object-cover" /> 
-          <img src="/images/img5.png" className="w-full h-full object-cover" />          
-          <img src="/images/img6.png" className="w-full h-full object-cover" />          
-          <img src="/images/img7.png" className="w-full h-full object-cover" />
-          <img src="/images/img8.png" className="w-full h-full object-cover" />                   
+          <img src="/images/img4.png" className="w-full h-full object-cover" />                   
           </div>             
-          <img src="/images/img9.png" className="w-full h-full object-cover" />
+          <img src="/images/img5.png" className="w-full h-full object-cover" />
 
             <div className="w-full h-20 flex items-center justify-center bg-[#410808]">
           <button
@@ -70,7 +66,7 @@ export default function Home() {
             Quero Minha Lista 
           </button>
           </div>
-          <img src="/images/img10.png" className="w-full h-full object-cover" />
+          <img src="/images/img6.png" className="w-full h-full object-cover" />
            <div className="w-full h-20 flex items-center justify-center bg-[#410808]">
           <button
             className="bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] text-white font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-150 transition"
