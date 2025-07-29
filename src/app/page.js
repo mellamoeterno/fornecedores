@@ -43,22 +43,31 @@ export default function Home() {
           <img src="/images/img2.png" className="w-full h-full object-cover" />          
           <img src="/images/img3.png" className="w-full h-full object-cover" />
           <div className="w-full h-20 flex items-center justify-center bg-[#130202]">
-          <button
-            className="bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] text-white font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-150 transition"
-            onClick={() => {
-              window.location.href = 'https://pay.kiwify.com.br/apXqq2m';
-            }}
-          >
-            Quero Faturar Mais  
-          </button>
-          </div> 
+            <button
+              className="
+                bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] 
+                text-white font-bold text-lg px-6 py-3 rounded-lg 
+                shadow-[0_6px_0_0_#490404] hover:brightness-125 active:translate-y-[2px] active:shadow-[0_2px_0_0_#490404] 
+                transition-transform transition-shadow duration-150
+              "
+              onClick={() => {
+                window.location.href = 'https://pay.kiwify.com.br/apXqq2m';
+              }}
+            >
+              Quero Faturar Mais  
+            </button>
+          </div>
+ 
           <img src="/images/img4.png" className="w-full h-full object-cover" />                   
           </div>             
           <img src="/images/img5.png" className="w-full h-full object-cover" />
 
             <div className="w-full h-20 flex items-center justify-center bg-[#410808]">
           <button
-            className="bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] text-white font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-150 transition"
+            className="bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] 
+                text-white font-bold text-lg px-6 py-3 rounded-lg 
+                shadow-[0_6px_0_0_#490404] hover:brightness-125 active:translate-y-[2px] active:shadow-[0_2px_0_0_#490404] 
+                transition-transform transition-shadow duration-150"
             onClick={() => {
               window.location.href = 'https://pay.kiwify.com.br/apXqq2m';
             }}
@@ -69,7 +78,10 @@ export default function Home() {
           <img src="/images/img6.png" className="w-full h-full object-cover" />
            <div className="w-full h-20 flex items-center justify-center bg-[#410808]">
           <button
-            className="bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] text-white font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-150 transition"
+            className="bg-gradient-to-r from-[#680d0d] via-[#690b0b] to-[#660606] 
+                text-white font-bold text-lg px-6 py-3 rounded-lg 
+                shadow-[0_6px_0_0_#490404] hover:brightness-125 active:translate-y-[2px] active:shadow-[0_2px_0_0_#490404] 
+                transition-transform transition-shadow duration-150"
             onClick={() => {
               window.location.href = 'https://pay.kiwify.com.br/fejmg10';
             }}
